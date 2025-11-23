@@ -1,0 +1,105 @@
+[
+{
+  "tópico": "Introdução",
+  "explicação": "Neste conteúdo, você vai conhecer os principais elementos da produção visual de forma clara e fácil de entender. Vamos passar por temas como: como começar na área, diferentes formas de criar, meios de produção, composição, enquadramento, narrativa visual, cores, tipografia, iluminação e muito mais. Cada tópico ajuda você a evoluir na prática e entender melhor como as imagens comunicam. E não deixe de ler até o final — o último tema é o mais importante de todos.",
+  "icone_topico": "fas fa-book-open"
+},
+
+{
+    "tópico": "Como Começar na Produção Visual?",
+    "subtópico": "Dando os Primeiros Passos",
+    "imagem": "assets/images/comecando-producao-visual.jpg",
+    "explicação": "Iniciar na produção visual não exige equipamentos sofisticados. O primeiro passo é experimentar com o que você já tem, como a câmera do celular, para desenvolver noções básicas de enquadramento, luz e narrativa visual. Utilize ferramentas gratuitas como GIMP, Canva e DaVinci Resolve para aprender edição, manipulação de imagem e montagem. Explore tutoriais, faça cursos introdutórios gratuítos e observe o trabalho de profissionais para entender padrões estéticos. Criar pequenos projetos pessoais é uma forma eficaz de desenvolver seu estilo, testar linguagens diferentes (como fotografia, vídeo e design gráfico) e entender seu estilo. O progresso vem principalmente da prática constante e da curiosidade para testar novas técnicas.",
+    "icone_topico": "fas fa-rocket"
+},
+
+  {
+    "tópico": "Como é a produção visual?",
+    "subtópico": "Definição e etapas",
+    "imagem": "assets/images/etapas-producao-visual.png",
+    "explicação": "Produção visual é a área responsável por planejar, criar e organizar conteúdos que comunicam mensagens através de elementos visuais. Abrange todas as etapas de desenvolvimento: na pré-produção, define-se a intenção estética, o objetivo comunicacional, o público-alvo, o roteiro visual e os recursos necessários; na produção, ocorre a captura ou criação dos elementos (fotografia, vídeo, ilustração, design, animação); e na pós-produção, refinam-se os materiais por meio de edição, tratamento e finalização. Seu foco é transformar ideias abstratas em expressões visuais claras, coerentes e impactantes, capazes de influenciar comportamentos, gerar emoções e fortalecer identidades em diversas plataformas — impressas, digitais, cinematográficas e interativas.",
+    "link": "https://journalism.university/electronic-media/three-crucial-stages-audiovisual-production/",
+    "icone": "fas fa-link",
+    "icone_topico": "fas fa-sitemap"
+  },
+
+  {
+    "tópico": "Processo Criativo Individual ou Coletivo",
+    "subtópico": "Descobrindo sua fonte criativa",
+    "explicação": "A criatividade pode surgir tanto de um processo individual quanto de um coletivo. No processo individual, o criador tem liberdade total para desenvolver sua visão autoral, explorar sentimentos pessoais e assumir riscos criativos. Já no processo coletivo, a troca entre diferentes perspectivas, habilidades e repertórios enriquece as possibilidades e gera soluções inovadoras. Entender qual abordagem funciona melhor para você envolve testar ambas: refletir sobre como você organiza ideias, como reage a feedbacks e como se inspira. Além disso, alimentar-se de referências, observar o cotidiano, consumir arte e manter hábitos criativos (como rascunhos, moodboards e brainstorming) ajuda a identificar de onde surgem suas melhores ideias.",
+    "icone_topico": "fas fa-users"
+  },
+  {
+    "tópico": "Meios de produções visuais",
+    "subtópico": "As diversas plataformas e formatos",
+    "explicação": "Os meios de produção visual englobam uma variedade de plataformas que utilizam linguagens específicas. O Design Gráfico trabalha com identidade visual, tipografia, layout e materiais impressos ou digitais. A Fotografia explora luz, composição e narrativa visual para registros artísticos, documentais ou comerciais. A Ilustração dá vida a conceitos através de desenhos digitais ou tradicionais. O Vídeo abrange desde cinema e publicidade até conteúdos para redes sociais, exigindo domínio de roteiro, edição e direção. A Animação (2D, 3D ou motion graphics) cria mundos e movimentos que ampliam as possibilidades narrativas. Cada meio exige técnicas próprias e a escolha depende dos objetivos comunicacionais, do público e da estética desejada.",
+    "icone_topico": "fas fa-photo-video"
+  },
+  {
+    "tópico": "Composição",
+    "subtópico": "Arranjo dos elementos visuais",
+    "imagem": "assets/images/composicao-regra-tercos.jpg",
+    "explicação": "Composição é a organização intencional dos elementos dentro de uma imagem para guiar o olhar e criar equilíbrio visual. Inclui princípios como a Regra dos Terços, que posiciona elementos-chave fora do centro para gerar dinamismo; linhas-guia, que conduzem o espectador através do quadro; simetria e assimetria, que influenciam sensação de ordem ou tensão; e profundidade, que cria camadas através de perspectiva, contraste e foco. Além disso, é importante entender ritmo visual, peso dos elementos, padrões, texturas e espaços negativos. Uma composição eficiente transforma informações visuais em uma experiência clara, estética e envolvente.",
+    "link": "https://designculture.com.br/principios-basicos-de-composicao-visual/",
+    "icone": "fas fa-link",
+    "icone_topico": "fas fa-border-all"
+  },
+  {
+    "tópico": "Enquadramento",
+    "subtópico": "Campo de visão e planos",
+    "imagem": "assets/images/enquadramento-camera.jpg",
+    "explicação": "O enquadramento define o que aparece dentro do quadro e como o espectador percebe a cena. Ele determina proximidade, contexto e impacto emocional. Planos abertos revelam ambientes e situam personagens, enquanto planos médios equilibram contexto e expressão corporal. Planos fechados, como close-ups, enfatizam detalhes e emoções intensas. Além disso, o ângulo da câmera (plongée, contra-plongée, olho no olho) influencia o significado: pode sugerir poder, vulnerabilidade ou neutralidade. O enquadramento também controla ritmo, foco narrativo e até simbolismos, tornando-se uma ferramenta essencial para transmitir intenção e atmosfera.",
+    "link": "https://www.primeirofilme.com.br/site/o-livro/enquadramentos-planos-e-angulos/",
+    "icone": "fas fa-link",
+    "icone_topico": "fas fa-camera"
+  },
+  {
+    "tópico": "Narrativa Visual",
+    "subtópico": "Contando histórias com imagens",
+    "explicação": "Narrativa visual é a habilidade de transmitir histórias, conceitos ou emoções por meio de imagens organizadas de forma lógica e expressiva. Envolve a escolha de enquadramentos, cores, ritmos, símbolos e composição para orientar a interpretação do público. Uma narrativa pode ser construída em uma única imagem, como uma fotografia que sugere passado ou futuro, ou ao longo de sequências, como em filmes, quadrinhos e vídeos. Elementos como contraste, metáforas visuais, movimentos de câmera e ordem das cenas reforçam significado e intensidade emocional. Quando bem construída, a narrativa visual comunica mensagens profundas sem necessidade de texto ou diálogos.",
+    "link": "https://periodicos.udesc.br/index.php/ensinarmode/article/view/17458",
+    "icone": "fas fa-link",
+    "icone_topico": "fas fa-film"
+  },
+  {
+    "tópico": "Teoria das Cores",
+    "subtópico": "Psicologia e harmonia das cores",
+    "imagem": "assets/images/color-grading-cinematic.png",
+    "explicação": "A teoria das cores estuda como as cores se relacionam e como influenciam percepções e emoções. Na psicologia das cores, tons específicos evocam sensações distintas: azul transmite confiança e serenidade; vermelho evoca energia, urgência ou paixão; verde remete à natureza, equilíbrio e saúde. Na harmonia cromática, o círculo cromático é usado para criar combinações eficientes, como cores complementares (forte contraste), análogas (suavidade) e tríades (equilíbrio dinâmico). Dominar essas relações ajuda a comunicar intenções emocionais, reforçar identidades visuais e criar atmosferas condizentes com a mensagem desejada.",
+    "link": "https://www.significados.com.br/teoria-das-cores/",
+    "icone": "fas fa-link",
+    "icone_topico": "fas fa-palette"
+  },
+  {
+    "tópico": "Color Grading",
+    "subtópico": "Criando atmosferas através das cores",
+    "explicação": "Color grading é o processo criativo de manipular cores, contrastes e tonalidades de imagens ou vídeos para criar atmosferas específicas e fortalecer a narrativa. Diferente da correção de cor, que busca naturalidade, o grading é estético e intencional: tons frios sugerem tristeza, mistério ou distanciamento; tons quentes remetem à alegria, proximidade ou energia; cores dessaturadas podem transmitir melancolia ou realismo cru; ambientes altamente contrastados criam tensão ou dramaticidade. O grading também contribui para uniformidade visual, estilo cinematográfico e reforço emocional da obra.",
+    "link": "https://www.onzetrinta.com/post/colorgrading-colorista-onzetrinta",
+    "icone": "fas fa-link",
+    "icone_topico": "fas fa-swatchbook"
+  },
+  {
+    "tópico": "Tipografia",
+    "subtópico": "A arte com textos",
+    "imagem": "assets/images/tipografia-design.jpg",
+    "explicação": "Tipografia é o estudo e aplicação visual do texto, garantindo legibilidade, hierarquia e expressão estética. A escolha da fonte influencia diretamente a mensagem: serifadas transmitem tradição e seriedade; sans-serif indicam modernidade e clareza; fontes manuscritas sugerem personalidade; fontes display criam impacto e identidade forte. Além disso, espaçamento, peso, alinhamento, altura de linha e estrutura da hierarquia tipográfica definem como a informação será percebida. Uma boa tipografia não apenas apresenta palavras, mas comunica emoções, ritmo e estilo.",
+    "link": "https://ouki.com.br/guia-tipografia/",
+    "icone": "fas fa-link",
+    "icone_topico": "fas fa-font"
+  },
+  {
+    "tópico": "Iluminação",
+    "subtópico": "Modelando com a luz",
+    "imagem": "assets/images/iluminacao-estudio.jpg",
+    "explicação": "A iluminação é um dos elementos fundamentais da produção visual, responsável por criar volume, profundidade, texturas e atmosferas. A qualidade da luz (suave ou dura) altera sensações: luz dura cria sombras marcantes e dramatismo; luz suave suaviza imperfeições e transmite calma. A direção da luz trabalha a percepção do objeto, destacando ou ocultando características. Técnicas como key light, fill light e backlight compõem esquemas clássicos para moldar a cena. A temperatura de cor também é importante: tons quentes geram aconchego, enquanto tons frios criam neutralidade ou tensão. A luz é, essencialmente, a ferramenta que define e revela a narrativa visual.",
+    "link": "https://fotografiaprofissional.org/glossario/o-que-e-luz-cinematografica/",
+    "icone": "fas fa-link",
+    "icone_topico": "fas fa-lightbulb"
+  },
+  {
+    "tópico": "Originalidade",
+    "subtópico": "A sua assinatura no mundo",
+    "explicação": "Ser original é o que realmente diferencia um criador. Em um mundo saturado de conteúdo, destacar-se da maioria não é apenas um diferencial, mas uma necessidade. É sobre traduzir sua visão em projetos únicos, em vez de seguir tendências passageiras. Encontre o seu próprio color grading, aquele que traduz suas emoções em cores. Descubra sua própria iluminação, a que esculpe a realidade com a sua luz. Crie sua própria narrativa, com enquadramentos que só você vê. A verdadeira motivação vem de dentro, do desejo de criar algo autêntico, sem se prender à opinião alheia. A originalidade é a sua assinatura no mundo.",
+    "icone_topico": "fas fa-signature"
+  }
+]

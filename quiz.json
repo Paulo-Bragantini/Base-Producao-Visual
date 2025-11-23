@@ -1,0 +1,112 @@
+[
+  {
+    "question": "De acordo com o conteúdo apresentado, o que é 'Produção Visual'?",
+    "options": [
+      "A etapa final de pós-produção, que envolve a edição de imagens e a aplicação de efeitos visuais.",
+      "A área responsável por planejar, criar e organizar conteúdos que comunicam mensagens através de elementos visuais.",
+      "A criação de conteúdo visual de forma espontânea, sem a necessidade de um roteiro ou planejamento formal.",
+      "Um processo focado apenas na captura de mídias, como fotografia e vídeo, sem incluir o planejamento."
+    ],
+    "answer": 1,
+    "explanation": "Esta é a definição exata apresentada no tópico 'Como é a produção visual?', destacando as etapas de planejamento, criação e organização."
+  },
+  {
+    "question": "Qual a definição de 'Composição' apresentada no material?",
+    "options": [
+      "A aplicação de filtros e efeitos para melhorar a estética de uma imagem após sua captura.",
+      "A escolha de uma paleta de cores vibrantes para garantir que a imagem se destaque nas redes sociais.",
+      "A organização intencional dos elementos dentro de uma imagem para guiar o olhar e criar equilíbrio visual.",
+      "O uso exclusivo da Regra dos Terços, posicionando o objeto principal sempre no centro para maior impacto."
+    ],
+    "answer": 2,
+    "explanation": "O tópico 'Composição' define o termo como a organização intencional dos elementos para guiar o olhar do espectador."
+  },
+  {
+    "question": "O que é 'Narrativa Visual', segundo o conteúdo apresentado?",
+    "options": [
+      "A habilidade de transmitir histórias, conceitos ou emoções por meio de imagens organizadas de forma lógica e expressiva.",
+      "A criação de uma sequência de imagens esteticamente agradáveis, mas sem a necessidade de uma conexão lógica entre elas.",
+      "O processo de edição de vídeos que foca apenas na escolha de uma trilha sonora emocionante para guiar o público.",
+      "A técnica de usar exclusivamente textos e diálogos para contar uma história em um filme ou vídeo."
+    ],
+    "answer": 0,
+    "explanation": "A definição no tópico 'Narrativa Visual' enfatiza a transmissão de histórias e emoções através da organização de imagens."
+  },
+  {
+    "question": "Qual a definição de 'Color Grading'?",
+    "options": [
+      "O processo técnico que ajusta o balanço de branco e a exposição para deixar a imagem com aparência natural.",
+      "Um sinônimo para 'Correção de Cor', que busca apenas restaurar a fidelidade das cores originais da cena.",
+      "A técnica de aumentar a saturação de todas as cores de uma imagem para que ela pareça mais vibrante.",
+      "O processo criativo de manipular cores para criar atmosferas específicas e fortalecer a narrativa."
+    ],
+    "answer": 3,
+    "explanation": "O tópico 'Color Grading' o define como um processo criativo e estético para criar atmosferas e fortalecer a narrativa."
+  },
+  {
+    "question": "Qual é a mensagem principal do tópico sobre 'Originalidade'?",
+    "options": [
+      "Que seguir as tendências populares é o caminho mais seguro e eficaz para alcançar o sucesso na produção visual.",
+      "Que copiar o estilo de artistas famosos é uma etapa obrigatória do processo de aprendizado criativo.",
+      "Que a originalidade é a sua assinatura no mundo e o que realmente diferencia um criador.",
+      "Que a originalidade de um trabalho depende exclusivamente da qualidade e do custo do equipamento utilizado."
+    ],
+    "answer": 2,
+    "explanation": "O tópico 'Originalidade' enfatiza que ela é a 'sua assinatura no mundo', sendo o principal diferencial de um criador."
+  },
+  {
+    "question": "Se um diretor de cinema quer que o público se sinta pequeno e vulnerável em relação a um vilão, qual ângulo de câmera ele provavelmente usaria para filmar o vilão?",
+    "options": [
+      "Contra-plongée (de baixo para cima)",
+      "Ângulo no nível do olho (neutro)",
+      "Plano detalhe do rosto do personagem",
+      "Plongée (de cima para baixo)"
+    ],
+    "answer": 0,
+    "explanation": "O contra-plongée (filmar de baixo para cima) faz o objeto parecer maior e mais imponente, transmitindo poder e fazendo o espectador se sentir vulnerável. Isso aplica o conceito do tópico 'Enquadramento'."
+  },
+  {
+    "question": "Um designer está criando a identidade visual para um banco de investimentos tradicional. Qual combinação de cor e tipo de fonte seria mais adequada para transmitir confiança e seriedade?",
+    "options": [
+      "Amarelo e uma fonte manuscrita.",
+      "Azul escuro e uma fonte serifada.",
+      "Verde-limão e uma fonte display.",
+      "Laranja e uma fonte moderna sans-serif."
+    ],
+    "answer": 1,
+    "explanation": "O azul transmite confiança (Teoria das Cores) e fontes serifadas transmitem tradição e seriedade (Tipografia). Essa combinação é a mais alinhada com a imagem de um banco tradicional."
+  },
+  {
+    "question": "Qual das seguintes opções melhor descreve a diferença entre o processo criativo individual e o coletivo?",
+    "options": [
+      "O processo individual é sempre mais rápido e eficiente, enquanto o coletivo é mais lento e burocrático.",
+      "O processo coletivo elimina a necessidade de uma visão autoral.",
+      "O individual oferece liberdade total, enquanto o coletivo se beneficia da troca de diferentes perspectivas.",
+      "Apenas o processo coletivo é capaz de gerar soluções que são consideradas verdadeiramente inovadoras."
+    ],
+    "answer": 2,
+    "explanation": "Conforme o material sobre 'Processo Criativo', a principal diferença está na liberdade autoral do processo individual versus a riqueza gerada pela diversidade de habilidades e repertórios no processo coletivo."
+  },
+  {
+    "question": "Um fotógrafo quer criar uma cena dramática com sombras bem definidas e marcadas em um retrato. Que tipo de iluminação ele deve usar?",
+    "options": [
+      "Luz suave (difusa)",
+      "Luz dura (direta)",
+      "Usar a luz de preenchimento (fill light) como fonte principal.",
+      "Usar apenas contraluz (backlight) sem nenhuma outra fonte de luz."
+    ],
+    "answer": 1,
+    "explanation": "O material sobre 'Iluminação' explica que a luz dura cria sombras marcantes e dramatismo, sendo a escolha ideal para o efeito desejado pelo fotógrafo."
+  },
+  {
+    "question": "Qual é a principal diferença entre 'Correção de Cor' e 'Color Grading'?",
+    "options": [
+      "Não há diferença, pois ambos os processos buscam ajustar as cores da imagem para um resultado final.",
+      "Correção de cor é um processo criativo, enquanto color grading é técnico.",
+      "Color grading é feito antes da correção de cor.",
+      "Correção de cor busca naturalidade, enquanto color grading busca criar uma atmosfera estética."
+    ],
+    "answer": 3,
+    "explanation": "A correção de cor é o processo técnico de ajustar a imagem para que pareça natural. Já o color grading é o processo criativo e estilístico de manipular as cores para criar uma atmosfera específica e fortalecer a narrativa."
+  }
+]

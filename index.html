@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Adiciona a biblioteca de ícones Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Crie sem medo!</title>
+    <style>
+        .search-container {
+            display: flex;
+            align-items: center;
+        }
+
+        #botao-busca {
+            display: flex; /* Adicionado para centralizar o ícone SVG */
+            align-items: center;
+            justify-content: center;
+            gap: 8px; /* Espaçamento entre o ícone e o texto */
+            padding: 0.375rem 1rem; /* Ajuste no padding */
+            height: 50px; /* Mantém a altura para alinhar com o input */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-title">
+            <h1>Base de Conhecimento</h1>
+            <h2 class="subtitle">da produção visual</h2>
+        </div>
+        <div class="search-container">
+            <div class="input-wrapper">
+                <input type="text" placeholder="Procure por uma palavra-chave" id="campo-busca">
+                <button id="clear-search-btn" aria-label="Limpar busca">&times;</button>
+            </div>
+            <button id="botao-busca" onclick="iniciarBusca()" aria-label="Buscar">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                </svg>
+                Buscar
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="card-container">
+            <!-- <article class="card">
+                <h2>Produção visual</h2>
+                <h4>Entendendo o que é...</h4>
+                <p>Conjunto de técnicas e processos utilizados para criar, desenvolver e comunicar mensagens visuais eficazes através de diversos meios, como design gráfico, fotografia, vídeo, animação e outras formas de mídia visual.</p>
+            </article> -->
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <ul class="footer-links">
+                <li>
+                    <a href="https://www.youtube.com/channel/UCu_lIsrcknIhk0GTvudFhwQ" target="_blank"><i class="fab fa-youtube"></i> YouTube (pessoal)</a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/@FoxsDesigns" target="_blank"><i class="fab fa-youtube"></i> YouTube</a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/foxs_designs_psd?igsh=MW42ejVnMmN6Z3ZxYg==" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/paulocabralbragantini?igsh=MWpoZDc4ejJ6YXI0ag==" target="_blank"><i class="fab fa-instagram"></i> Instagram (pessoal)</a>
+                </li>
+                <li>
+                    <a href="https://github.com/Paulo-Bragantini" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/agentep/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                </li>
+                <li>
+                    <a href="https://www.alura.com.br/" target="_blank"><i class="fas fa-graduation-cap"></i> Alura</a>
+                </li>
+            </ul>
+            <p class="footer-location">Feito por Paulo H. M. Cabral Bragantini</p>
+        </div>
+    </footer>
+    <button id="start-quiz-btn" title="Quiz" aria-label="Iniciar Quiz">
+        <i class="fas fa-question-circle"></i>
+        <span class="quiz-btn-text">Quiz</span>
+    </button>
+    <button onclick="scrollToTop()" id="back-to-top-btn" title="Voltar ao topo">↑</button>
+    <!-- Adiciona a biblioteca Fuse.js para busca com tolerância a erros -->
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.min.js"></script>
+    <!-- Adiciona a biblioteca para o efeito de confete -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+
+    <!-- Modal do Quiz -->
+    <div id="quiz-modal" class="quiz-modal">
+        <div class="quiz-content">
+            <button id="close-quiz-btn" class="close-quiz-btn">&times;</button>
+            <!-- Contêiner da Barra de Progresso -->
+            <div id="progress-container" style="display: none;">
+                <span id="progress-text"></span>
+                <div class="progress-bar-container">
+                    <div id="progress-bar"></div>
+                </div>
+            </div>
+            <div id="quiz-container">
+                <h2 id="question"></h2>
+                <div id="options-container"></div>
+                <div id="feedback-container"></div>
+                <button id="confirm-answer-btn" style="display: none;">Confirmar Resposta</button>
+                <button id="next-question-btn" style="display: none;">Próxima Pergunta</button>
+            </div>
+            <div id="quiz-results" style="display: none;">
+                <h2>Resultado do Quiz</h2>
+                <p id="score-text"></p>
+                <p id="high-score-text"></p>
+                <p id="score-feedback"></p>
+                <button id="restart-quiz-btn">Tentar Novamente</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
